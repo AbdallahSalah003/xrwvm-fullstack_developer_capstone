@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <title>Contact Us - Dealerships</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <h1 class="mb-4">Contact Us</h1>
+    <p>
+      Whether you’re looking for a new car, servicing your current vehicle, or exploring financing options, our team is here to help. 
+      At <strong>Dealerships</strong>, we pride ourselves on delivering excellent customer service and making your car-buying experience stress-free.
+    </p>
+
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <h4>Our Showroom</h4>
+        <p>
+          📍 123 Main Street, Cairo, Egypt <br>
+          📞 +20 123 456 7890 <br>
+          ✉️ info@dealerships.com
+        </p>
+        <p>
+          <strong>Opening Hours:</strong><br>
+          Sunday – Thursday: 9:00 AM – 8:00 PM <br>
+          Friday: Closed <br>
+          Saturday: 10:00 AM – 6:00 PM
+        </p>
+      </div>
+
+      <div class="col-md-6">
+        <h4>Send Us a Message</h4>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Write your message here..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
